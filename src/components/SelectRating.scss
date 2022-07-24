@@ -1,0 +1,78 @@
+
+.select-container {
+    margin: 3.5rem 3.8rem;
+    height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.star-wrapper {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    background-color: var(--bg-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-title {
+    color: var(--white);
+    font-size: 3rem;
+}
+
+.description {
+    color: var(--light-grey);
+    line-height: 2.3rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.number-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    background-color: var(--bg-secondary);
+    color: var(--white);
+    font-size: 1.5rem;
+    text-align: center;
+    transition: ease-in .3s;
+    cursor: pointer;
+}
+
+.number:hover {
+    background-color: var(--orange);
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: var(--orange);
+    border-radius: 3rem;
+    color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-size: 1.5rem;
+    padding: 1.1rem 0;
+    transition: ease-in .3s;
+}
+
+.submit-btn:hover {
+    background-color: var(--white);
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.selected {
+    background-color: var(--light-grey);
+}
